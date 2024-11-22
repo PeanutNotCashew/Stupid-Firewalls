@@ -1,6 +1,6 @@
 #! bin/bash
 
-if ! systemctl list-unit-files --type=service | grep -q "firewallf.service"
+if ! systemctl list-unit-files --type=service | grep -q "firewalld.service"
 then # Install if not already installed
     dnf install firewalld
     systemctl enable firewalld
