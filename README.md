@@ -16,7 +16,9 @@ Progress:
 Note: vault and spy are both remote
 
 # Getting it on the box:
-1. Download git: `sudo apt install git`
-2. Clone repo: `https://github.com/PeanutNotCashew/Stupid-Firewalls.git`
+1. Download git:
+    - Debian, Ubuntu: `sudo apt install git`
+    - Rocky: `dnf install git`
+2. Clone repo: `git clone https://github.com/PeanutNotCashew/Stupid-Firewalls.git`
 3. Move into file: `cd 'Stupid-Firewalls/Firewall Scripts'`
 4. Pick your poison: `bash [file name]`
