@@ -4,7 +4,7 @@ Contains hardcoded firewall rules for Linux boxes
 Progress:
 - Vault: complete
 - Propaganda: started
-- Wiretap: started
+- Wiretap: complete
 - Spy: my nemesis (might not get this)
 
 # Linux Boxes:
