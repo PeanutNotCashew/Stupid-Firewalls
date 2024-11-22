@@ -1,6 +1,12 @@
 # Firewalls for CCDC Mini-Comp (2024)
 Contains hardcoded firewall rules for Linux boxes
 
+Progress:
+- Vault: complete
+- Propaganda: started
+- Wiretap: started
+- Spy: my nemesis (might not get this)
+
 # Linux Boxes:
 - propaganda (Ubuntu 22.04): Docker/HTTP and SSH
 - wiretap (Rocky 9): IMAP/SMTP
