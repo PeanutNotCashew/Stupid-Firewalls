@@ -5,7 +5,7 @@ Progress:
 - Vault: complete
 - Propaganda: started
 - Wiretap: complete
-- Spy: my nemesis (might not get this)
+- Spy: complete
 
 # Linux Boxes:
 - propaganda (Ubuntu 22.04): Docker/HTTP and SSH

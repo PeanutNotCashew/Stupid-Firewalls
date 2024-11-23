@@ -19,7 +19,7 @@ if $(! -f /etc/pf.conf); then
 fi
 
 # Enable
-pfctl -e
+sudo pfctl -e
 
 # Clear rule file
 echo '' | sudo tee /etc/pf.conf
@@ -28,7 +28,7 @@ echo '' | sudo tee /etc/pf.conf
 echo 'block in' | sudo tee -a /etc/pf.conf
 echo 'pass out' | sudo tee -a /etc/pf.conf
 
-echo 'pass in quick to any port { 22, 3306 }' | sudo tee -a /etc/pf.conf
+echo 'pass in quick proto { tcp, udp } to any port { 22, 3306 }' | sudo tee -a /etc/pf.conf
 
 # Flush existing rules, and load newly created rules
 sudo pfctl -F all -f /etc/pf.conf
